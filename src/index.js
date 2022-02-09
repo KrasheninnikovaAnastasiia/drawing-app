@@ -1,17 +1,17 @@
-import './css/style.css';
-import './css/normalize.css';
+import './style/style.css';
+import './style/normalize.css';
 
-import globals from './js/modules/globals'
+import globals from './app/globals'
 
-import clearHistory from './js/modules/clearHistory';
-import downloadImage from './js/modules/downloadImage';
-import executeMouseEvent from './js/modules/executeMouseEvent';
-import loadFromLocalStorage from './js/modules/loadFromLocalStorage';
-import replayMouseEvents from './js/modules/replayMouseEvents';
-import saveMouseEvent from './js/modules/saveMouseEvent';
-import saveToLocalStorage from './js/modules/saveToLocalStorage';
-import setFilter from './js/modules/setFilter';
-import updateSizeOnScreen from './js/modules/updateSizeOnScreen';
+import clearHistory from './app/clearHistory';
+import downloadImage from './app/downloadImage';
+import executeMouseEvent from './app/executeMouseEvent';
+import loadFromLocalStorage from './app/loadFromLocalStorage';
+import replayMouseEvents from './app/replayMouseEvents';
+import saveMouseEvent from './app/saveMouseEvent';
+import saveToLocalStorage from './app/saveToLocalStorage';
+import setFilter from './app/setFilter';
+import updateSizeOnScreen from './app/updateSizeOnScreen';
 
 loadFromLocalStorage();
 

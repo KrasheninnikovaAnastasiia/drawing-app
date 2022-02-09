@@ -7,8 +7,9 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
+    clean: true
   },
-  plugins: [new HtmlWebpackPlugin({ template: './dist/index.html', inject: false })],
+  plugins: [new HtmlWebpackPlugin({ template: './src/public/index.html', inject: true })],
   module: {
     rules: [
       {
